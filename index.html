@@ -50,7 +50,7 @@
 
         // --- 🔑 กำหนด API KEY ที่นี่ 🔑 ---
         const newsDataApiKey ="pub_c711d3283ffc488dbc6caf2410001b34"; 
-        const geminiApiKey = "AIzaSyDyrgXbvaU-tqgRFf-A9_DGvex0hyiu4m0";
+        const geminiApiKey = "AIzaSyAR6iVzxic_MzGiRW4JhX1Sg_Dh6jG1giY";
 
         const categories = [
             { id: 'top', label: 'ข่าวเด่นวันนี้', icon: 'zap' },
@@ -77,8 +77,8 @@
             const [summarizing, setSummarizing] = useState({});
 
             const fetchNews = useCallback(async () => {
-                if (newsDataApiKey === "ใส่_API_KEY_ที่นี่") {
-                    setError("กรุณาใส่ NewsData API Key ในโค้ดก่อนเริ่มต้น!");
+                if (newsDataApiKey === ("AIzaSyAR6iVzxic_MzGiRW4JhX1Sg_Dh6jG1giY") {
+                    setError("pub_c711d3283ffc488dbc6caf2410001b34");
                     setLoading(false);
                     return;
                 }
